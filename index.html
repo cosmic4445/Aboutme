@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cuber — about.sh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="terminal">
+    <div class="scan"></div>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+      <div class="logo">CUBER</div>
+      <div class="sub">initializing profile...</div>
+      <div id="bar-wrap"><div id="bar"></div></div>
+      <div id="pct">0%</div>
+    </div>
+
+    <!-- Matrix Rain Canvas -->
+    <canvas id="rain-canvas"></canvas>
+
+    <!-- Title Bar + Tabs -->
+    <div id="titlebar">
+      <div id="dots">
+        <div class="dot dot-r"></div>
+        <div class="dot dot-y"></div>
+        <div class="dot dot-g"></div>
+      </div>
+      <div id="tabs">
+        <div class="tab active" data-tab="whoami" draggable="true">
+          <i class="ti ti-user" aria-hidden="true"></i> About me
+          <span class="drag-hint">⠿</span>
+        </div>
+        <div class="tab" data-tab="hobbies" draggable="true">
+          <i class="ti ti-puzzle" aria-hidden="true"></i> hobbies
+          <span class="drag-hint">⠿</span>
+        </div>
+        <div class="tab" data-tab="socials" draggable="true">
+          <i class="ti ti-link" aria-hidden="true"></i> socials
+          <span class="drag-hint">⠿</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab Panels -->
+    <div id="content">
+      <div class="panel active" id="panel-whoami"></div>
+      <div class="panel" id="panel-hobbies"></div>
+      <div class="panel" id="panel-socials"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
