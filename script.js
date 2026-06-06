@@ -90,7 +90,7 @@ const panelData = {
     { t: '',       h: '' },
     { t: 'social', icon: 'ti-brand-github',  label: 'github',  val: 'github.com/cosmic4445',   url: 'https://github.com/cosmic4445' },
     { t: 'social', icon: 'ti-brand-discord', label: 'discord', val: 'thefinalbacon',               url: null },
-    { t: 'social', icon: 'ti-brand-youtube', label: 'youtube', val: 'youtube.com/@KiroDev',  url: 'https://youtube.com/Kirodevn' },
+    { t: 'social', icon: 'ti-brand-youtube', label: 'youtube', val: 'youtube.com/Cubeerr',  url: 'https://youtube.com/Cubeerr' },
     { t: '',       h: '' },
     { t: 'fact',   h: '' },
   ],
